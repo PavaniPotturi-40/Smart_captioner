@@ -19,5 +19,5 @@ def run_pipeline(image_path):
 
 
 if __name__ == "__main__":
-    image_path = "data/test_images/photoo.jpg"  # Put your image here
+    image_path =input("Enter image path: ")  # Put your image here
     run_pipeline(image_path)
